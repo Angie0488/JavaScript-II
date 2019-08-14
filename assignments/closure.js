@@ -1,11 +1,10 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
-const firstName = "Angie";
-function sayHello() {
-  const lastName = "Lawrence";
-  return lastName;
+const name = "Angie";
+function myName () {
+  return name;
 }
-//console.log(firstName);
+console.log(myName());
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
